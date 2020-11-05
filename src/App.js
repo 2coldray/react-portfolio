@@ -1,8 +1,20 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>This is where all my components will end up.</h1>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Footer />
+    </Router>
+    </>
   );
 }
 
