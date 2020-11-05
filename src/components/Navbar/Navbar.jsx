@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link to="/" className="navbar-brand">
+        <NavLink to="/" activeClassName="navbar-brand selected">
           Rayshawn Bray
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,17 +19,17 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <Link to="/" className="navbar-brand">
-              Home
-            </Link>
-            <Link to="/portfolio" className="navbar-brand">
-              Portfolio
-            </Link>
-            <Link to="/contact" className="navbar-brand">
-              Contact
-            </Link>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav ml-auto">
+              <NavLink to="/" className="navbar-brand">
+                Home
+              </NavLink>
+              <NavLink to="/portfolio" className="navbar-brand">
+                Portfolio
+              </NavLink>
+              <NavLink to="/contact" className="navbar-brand">
+                Contact
+              </NavLink>
           </div>
         </div>
       </nav>
