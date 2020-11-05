@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Home.css";
 import port from "../../images/port.png";
-import {Route} from "react-router-dom";
 
 const Home = () => {
   return (
@@ -24,9 +23,28 @@ const Home = () => {
             <p>Let's connect! My information is below</p>
             <p>Email: raybray219@yahoo.com</p>
             <p>Phone Number: 678-697-1692</p>
-            <p>Github:</p>
-            <p>LinkedIn:</p>
-            <p>Resume:</p>
+            <p>
+              Github Link:
+              <a href={"https://github.com/2coldray"}>
+                https://github.com/2coldray
+              </a>
+            </p>
+            <p>
+              LinkedIn:
+              <a href={"www.linkedin.com/in/rayshawnbray"}>
+                www.linkedin.com/in/rayshawnbray
+              </a>
+            </p>
+            <p>
+              Resume:
+              <a
+                href={
+                  "file:///Users/rayshawnbray/Desktop/bootcamp/newResume.PDF"
+                }
+              >
+                View Resume Here
+              </a>
+            </p>
           </div>
         </div>
       </div>
