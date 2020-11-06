@@ -25,6 +25,32 @@ const Portfolio = () => {
                             <a href={"https://2coldray.github.io/weather-dashboard/"}>Deployed Application</a>  
                         </div>
                     </div>
+                    <div className="card text-center mt-2">
+                        <div className="card-header text-center">
+                            Workday Scheduler Application
+                        </div>
+                        <div className="card-body">
+                           <img src={work} alt="workday scheduler" className="pic" />
+                        </div>
+                        <div className="card-footer sticky text-center">
+                            <a href={"https://github.com/2coldray/05-work-day-scheduler"} className="link">Github Link</a>
+
+                            <a href={"https://2coldray.github.io/05-work-day-scheduler/"}>Deployed Application</a>  
+                        </div>
+                    </div>
+                    <div className="card text-center mt-2">
+                        <div className="card-header text-center">
+                            Note Taker Application
+                        </div>
+                        <div className="card-body">
+                           <img src={noteTaker} alt="note taker app" className="pic" />
+                        </div>
+                        <div className="card-footer sticky text-center">
+                            <a href={"https://github.com/2coldray/Note-Taker-App"} className="link">Github Link</a>
+
+                            <a href={"https://gt-express-notes-app-17.herokuapp.com/"}>Deployed Application</a>  
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
