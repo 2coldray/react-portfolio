@@ -1,4 +1,7 @@
 import React from 'react';
+import weather from "../../images/weather.png";
+import "../../styles/Portfolio.css";
+
 
 const Portfolio = () => {
     return (
@@ -12,7 +15,7 @@ const Portfolio = () => {
                             Weather Dashboard Application
                         </div>
                         <div className="card-body">
-                            <p>Screenshot</p>
+                           <img src={weather} alt="weather dashboard screenshot" className="pic" />
                         </div>
                         <div className="card-footer sticky text-center">
                             <p>Github Link</p>
