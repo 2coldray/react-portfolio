@@ -1,5 +1,7 @@
 import React from 'react';
 import weather from "../../images/weather.png";
+import noteTaker from "../../images/noteTaker.png";
+import work from "../../images/work.png";
 import "../../styles/Portfolio.css";
 
 
@@ -18,8 +20,9 @@ const Portfolio = () => {
                            <img src={weather} alt="weather dashboard screenshot" className="pic" />
                         </div>
                         <div className="card-footer sticky text-center">
-                            <p>Github Link</p>
-                            <p>Deployed Application Link</p>
+                            <a href={"https://github.com/2coldray/weather-dashboard"} className="link">Github Link</a>
+
+                            <a href={"https://2coldray.github.io/weather-dashboard/"}>Deployed Application</a>  
                         </div>
                     </div>
                 </div>

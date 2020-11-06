@@ -1,3 +1,11 @@
 .pic {
     width: 500px;
 };
+
+.link {
+    margin-right: 10px;
+}
+
+a {
+    margin-right: 10px;
+};

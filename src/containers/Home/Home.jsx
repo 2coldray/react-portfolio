@@ -16,7 +16,7 @@ const Home = () => {
               Software Developer from Atlanta, Georgia. I'm currently a
               full-time student at Georgia Institute of Technology in their Full
               Stack Web Development Coding Boot Camp. I have experience using
-              HTML5, CSS, JavaScript, JQuery, Bootstrap, Materialze, MySql,
+              HTML5, CSS, JavaScript, JQuery, Bootstrap, Materialize, MySql,
               Node, Express, MongoDB, React.js and have deployed applications
               live on the web.
             </p>
